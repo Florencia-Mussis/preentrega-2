@@ -5,7 +5,7 @@ function calcularAhorro (montoInicial, ahorroMensual , time) {
     for (let i = 1; i <= time; i++) {
         acumuladoTotal = acumuladoTotal + parseInt(ahorroMensual)
         plazoFijo = (plazoFijo + parseInt(ahorroMensual)) * 1.0575
-        console.log("Mes " + i + " llevas ahorrado: $ " + plazoFijo.toFixed(2) + " versus $ " + acumuladoTotal )
+        console.log("Mes " + i + " llevas ahorrado: $ " + plazoFijo.toFixed(2) + " 👏 versus $ " + acumuladoTotal.toFixed(2) + " 👎" )
     }
 
 } 
